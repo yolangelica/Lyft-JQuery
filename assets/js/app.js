@@ -17,6 +17,12 @@ $('#phone-number').hide();
          $('#phone-number').show();
      });
 
+//IMAGEN
+     $('.back').click(function(){
+         $('#phone-number').hide();
+         $('.initial').show();
+     });
+
 
 
 //OCULTAR PAGINA NUMERO AL AZAR Y MUESTRA VERIFICA TELEFONO
@@ -29,3 +35,7 @@ $('#verify-phone').hide();
 
 });
 
+ $('.back2').click(function(){
+         $('#verify-phone').hide();
+         $('#phone-number').show();
+     });
