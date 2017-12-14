@@ -43,6 +43,7 @@ body{
 
 }
 
+/*LOGOS PAGINA PRINCIPAL*/
 .logo-white{
 	background-color: transparent;
 	width: 25%;
@@ -54,4 +55,9 @@ body{
 	background-color: transparent;
 	width: 100%;
 	padding-bottom: 20%;
+}
+
+/*BANDERAS SEGUNDA PAGINA*/
+.flag{
+	width: 10%;
 }
