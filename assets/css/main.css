@@ -1,0 +1,57 @@
+body{
+	margin:0;
+	padding: 0;
+
+}
+
+.row , .col- {
+	margin:0;
+	padding: 0;
+}
+
+#splash{
+	background-image: url(../img/splash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.initial{
+	background-image: url(../img/131.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+/*BUTTON*/
+
+.log-in ,.sing-up{
+	background-color: transparent;
+	color: #fff;
+	padding: 1% 2%;
+	margin-left: 20%;
+
+
+}
+
+.logo-white{
+	background-color: transparent;
+	width: 25%;
+	padding-top: 5%;
+	
+}
+
+.logo-pink{
+	background-color: transparent;
+	width: 100%;
+	padding-bottom: 20%;
+}
