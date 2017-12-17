@@ -64,7 +64,7 @@ body{
 
 /*boton next*/
 
-.next, .next2{
+.next, .next2, .next3{
 	background-color: #EA0B8C;
 	color: #fff;
 	width: 100%;
@@ -74,4 +74,22 @@ body{
 
 .input-code{
 	border:none;
+}
+
+.emailInput{
+	margin-top:2em;
+}
+
+#lastPage{
+
+	background-image: url(../img/splash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
 }

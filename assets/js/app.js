@@ -35,6 +35,20 @@ $('#verify-phone').hide();
          $('#verify-phone').show();
      });
 
+$('#nameEmail').hide();
+     $('.next2').click(function(){
+      
+         $('#verify-phone').hide();
+         $('#nameEmail').show();
+     });
+
+$('#lastPage').hide();
+     $('.next3').click(function(){
+      
+         $('#nameEmail').hide();
+         $('#lastPage').show();
+     });
+
 });
 
  $('.back2').click(function(){
@@ -42,14 +56,12 @@ $('#verify-phone').hide();
          $('#phone-number').show();
      });
 
-$('#input_text').change(function() {
-       if (($('#input_text').val().length)===10){
-           $('#sign').removeClass('disabled');
-       } else {
-           $('#sign').addClass('disabled');
-       }
+ $('.back3').click(function(){
+         $('#nameEmail').hide();
+         $('#verify-phone').show();
+     });
    
-});
+
 //GENERA NUMERO CODIGO AL AZAR
 function code() {
  var code = "";
@@ -61,3 +73,12 @@ function code() {
 }
 
 //desabilitar boton
+$('#input_text').change(function() {
+       if (($('#input_text').val().length)===10){
+           $('#sign').removeClass('disabled');
+       } else {
+           $('#sign').addClass('disabled');
+       }
+});
+//CAMBIA SECCION
+
