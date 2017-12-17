@@ -61,3 +61,17 @@ body{
 .flag{
 	width: 10%;
 }
+
+/*boton next*/
+
+.next, .next2{
+	background-color: #EA0B8C;
+	color: #fff;
+	width: 100%;
+	padding: 0.5em;
+	margin-top: 2em;
+}
+
+.input-code{
+	border:none;
+}
